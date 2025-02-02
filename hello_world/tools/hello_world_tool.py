@@ -1,4 +1,4 @@
-from kubiya_sdk.tools.models import Tool, Arg
+from kubiya_sdk.tools.models import Tool, Arg, ServiceSpec
 from kubiya_sdk.tools.registry import tool_registry
 
 hello_world = ServiceSpec(
