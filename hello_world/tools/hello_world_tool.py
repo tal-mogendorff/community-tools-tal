@@ -15,7 +15,7 @@ say_hello_tool = Tool(
     args=[Arg(name="name", description="name to say hello to", required=True)],
     env=[],
     secrets=[],
-    with_services=[hello_world]
+    with_services=[hello_world],
     content="""
 python -c "print(f'Hello, {{ .name }}!')"
 """,
